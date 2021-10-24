@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import { AppComponent } from '../app.component';
-
+// CTRL + p you can choose the file name with typing!
 @Component({
   selector: 'app-welcome',
   templateUrl: './welcome.component.html',
