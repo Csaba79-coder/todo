@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { AppComponent } from '../app.component';
+
 @Component({
   selector: 'app-welcome',
   templateUrl: './welcome.component.html',
@@ -7,10 +9,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WelcomeComponent implements OnInit {
 
+  messageWelcome = 'This is a welcoma message!'
+  text : string = "Hello this is text String!"
+
   constructor() { }
 
   ngOnInit(): void {
+    console.log(this.messageWelcome)
+    console.log(this.text)
   }
+
+  //ngOnInit(): String { // after colon or double-dot you can find the returning value or void it it is not returns anything back!
+  //
+  //}
 
 }
 
